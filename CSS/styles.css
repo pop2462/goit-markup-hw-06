@@ -821,6 +821,11 @@ img {
   cursor: pointer;
 }
 
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
+  fill: var(--accent-color);
+}
+
 /* Form */
 
 .contact-form-title {
@@ -917,6 +922,7 @@ img {
   background-color: var(--accent-color);
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
@@ -931,13 +937,13 @@ img {
   border: 1px solid #000000;
   border-radius: 2px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   margin-right: 8.38px;
 }
 
 .contact-form-checkbox-wrapper {
   margin-bottom: 30px;
+  margin-left: 14px;
 }
 
 .contact-form-checkbox-text {
